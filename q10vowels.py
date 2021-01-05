@@ -1,2 +1,2 @@
 s = input("Enter the word: ")
-print([i for i in s if i in 'aeiouAEIOU'])
+print("".join([i for i in s if i not in 'aeiouAEIOU']))
