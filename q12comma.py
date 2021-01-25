@@ -1,5 +1,0 @@
-sequence = input("Enter the comma separated numbers: ")
-list1 = sequence.split(",")
-list2 = list(map(int,list1))
-print(list2)
-print(tuple(list1))
