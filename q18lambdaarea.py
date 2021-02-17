@@ -1,0 +1,11 @@
+f1 = lambda l: l*l
+f2 = lambda l,b: l*b
+f3 = lambda l,b: 0.5*l*b
+l = int(input("SQUARE\nEnter the side: "))
+print("Area = ",f1(l),"sq.cm")
+l = int(input("RECTANGLE\nEnter the length: "))
+b = int(input("Enter the breadth: "))
+print("Area = ",f2(l,b),"sq.cm")
+l = int(input("TRIANGLE\nEnter the base: "))
+b = int(input("Enter the height: "))
+print("Area = ",f3(l,b),"sq.cm")
